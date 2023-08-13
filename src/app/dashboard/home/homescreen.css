@@ -1,0 +1,159 @@
+.container{
+    background-color: #fff;
+    /* height: 100vh; */
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.mainSide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#thumb:hover{
+    transform: scale(1.2);
+}
+.leftSide{
+    width: 20%;
+}
+.rightSide{
+    width: 75%;
+}
+.sideBarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.sidebarTitle{
+    font-weight: 400;
+    cursor: pointer;
+}
+.sideBarContainer:hover{
+    color: red;
+    font-weight: 600;
+    transition: 0.5s ease-in;
+}
+.sidebarTitle:hover{
+    color: red;
+    font-weight: 600;
+    transition: 0.5s ease-in;
+}
+.flash{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: red;
+}
+.productsAll{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.products{
+    height: 300px;
+    width: 350px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 10px;
+}
+/* .products:hover{
+    transition: 0.9s ease;
+    height: 310px;
+    width: 260px;
+    padding: 5px;
+} */
+.pimage{
+    height: 220px;
+}
+
+/* Add global styles here */
+.star-rating {
+display: inline-block;
+}
+  
+.star-rating label {
+font-size: 24px;
+cursor: pointer;
+padding: 0 5px;
+}
+
+.star {
+color: gold;
+}
+.ad{
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+.ser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#services{
+    border: 10px solid gray;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+} 
+.allServices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+}
+.footer{
+
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px;
+} 
+#subscribe{
+    border: 2px solid white;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.footerItems{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px)  {
+    .mainSide{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightSideIImg{
+        width:  300px;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+}

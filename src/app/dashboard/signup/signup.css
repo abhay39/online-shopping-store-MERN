@@ -1,0 +1,51 @@
+.view{
+    height: 83vh;
+    background-color: #fff;
+}
+.mainBoxForLogin{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.signupform{
+    width: 50%;
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+#name{
+    border: none ;
+    outline: none;
+    padding: 15px;
+    width: 300px;
+    border-bottom: 2px solid gray;
+}
+#signupBtn{
+    background-color: red;
+    padding: 10px;
+    letter-spacing: 1.2;
+    color: white;
+    font-weight: 400;
+    border: none!important;
+    margin-top: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    #imgBox{
+        width: 100%;
+    }
+    #p{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .signupform{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
